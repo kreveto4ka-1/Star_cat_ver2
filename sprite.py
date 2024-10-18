@@ -1,8 +1,8 @@
+импортирование библиотек
 import random
-
 import pygame as pg
 
-
+содание класса
 class Meteorite(pg.sprite.Sprite):
     def __init__(self):
         pg.sprite.Sprite.__init__(self)
